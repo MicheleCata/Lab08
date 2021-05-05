@@ -154,8 +154,7 @@ public class Flight {
 
 	@Override
 	public String toString() {
-		return "Flight [id=" + id + ", flightNumber=" + flightNumber + ", originAirportId=" + originAirportId
-				+ ", destinationAirportId=" + destinationAirportId + "]";
+		return this.id+" "+ this.getOriginAirportId()+" "+this.destinationAirportId+" "+ this.getDistance();
 	}
 
 }
